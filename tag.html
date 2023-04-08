@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html tags</title>
+        <!--웹 페이지의 이름을 바꿀 수 있다.-->
+        <meta charset="uft-8">
+        <!--입력한 값들이 제대로 보여지기 위해서 입력한것-->
+    </head>
+
+    <body>
+        <b>b tag</b>
+        <strong>strong tag</strong><br><br>
+        <!--b 와 strong 태그는 글씨를 두껍게 만들어준다.-->
+        <!--br은 줄바꿈 태그다-->
+        <p style="margin-top:10px;">waefawef</p>
+        <!--p는 단락?을 구분지어주는 태그다. p 옆에 style 등을 넣어서 색을 바꾸던가 간격을 넓히거나 할 수 있다.-->
+        <a href="index.html">go back</a>
+        <!--하이퍼링크-->
+        <ol>
+            <li>list</li>
+            <!--list 그냥 리스트다.-->
+        </ol>
+        <!--order list 정돈된 리스트므로 앞에 숫자가 붙는다.-->
+        <ul>
+            <li>awefaw</li>
+            <li>aoweij</li>
+        </ul>
+        <!--unorder list로 정리되지 않은 리스트므로 앞에 숫자는 안붙고 그냥 점만 붙어있다.-->
+        <p style="margin-top:10px;"><i>기울어진다</i></p>
+        <!--i 태그는 글자가 기울어진다.-->
+        <p style="margin-top: 10px;"><h1>강조!</h1></p>
+        <!--h1 부터 h6 까지 제목으로 6으로 가면 갈 수록 작아진다.-->        
+        <p style="margin-top: 10px;"><img src="cat.jpg" width="10%"></p>
+        <!--img 태그로 src와 함께 쓰며 이미지를 업로드 할 수 있다.-->
+        <p style="margin-top: 10px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+        <!--유튜브 영상 공유 눌러서 퍼가기? 누르면 영상을 넣을 수 있도록 html 코드를 준다.-->
+        <p style="margin-top:10px;">가로줄<hr></p>
+        <!--hr 태그는 그냥 가로줄 생기게 한다.-->
+        <p style="margin-top:10px;">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://web1-fxvnf0xssg.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+    </body>
+</html>
